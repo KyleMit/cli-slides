@@ -1,0 +1,84 @@
+{
+    "title": "Slides for Developers",
+    "presenter": "Kyle Mitofsky",
+    "date": "January 22, 2020",
+    "conference": "Boston Code Camp",
+    "location": "Burlington VT",
+    "twitter": {
+        "presenter": "@KyleMitBTV",
+        "event": "#BOSCC33"
+    },
+    "frame": {
+        "top": {
+            "center": "title"
+        },
+        "bottom": {
+            "left": ["twitter.presenter"],
+            "center": "VT Dept. of Health"
+        }
+    },
+    "slides": [{
+            "type": "title",
+            "title": "Git for Developers"
+        },
+        {
+            "type": "list",
+            "title": "Hi, I'm Kyle",
+            "list": [
+                "Senior Software Something or other",
+                "@ Vermont Department of Health",
+                "Tweet at @KyleMitBTV"
+            ]
+        },
+        {
+            "type": "list",
+            "title": "Why use containers?",
+            "list": [
+                "Same Environment as Production",
+                "Onboarding",
+                "Open Source Contributions",
+                "Testing"
+            ]
+        },
+        {
+            "type": "titleOnly",
+            "title": "Should I Use Git"
+        },
+        {
+            "type": "titleOnly",
+            "title": "Yep!"
+        },
+        {
+            "type": "simple",
+            "title": "What is a Git?",
+            "text": "A distributed version control system"
+        },
+        {
+            "type": "speaking",
+            "character": "silly-face",
+            "text": "Hey Kyle, how can I use it?"
+        },
+        {
+            "type": "code",
+            "title": "Commit",
+            "text": "Commit staged code with message",
+            "code": "git commit -m <message-text>"
+        },
+        {
+            "type": "code",
+            "title": "Commit",
+            "text": "Commit staged code with message",
+            "code": "git commit -m [reverse]\"initial commit\"[reset]"
+        },
+        {
+            "type": "terminal",
+            "title": "Commit",
+            "text": "git commit -m"
+        },
+        {
+            "type": "simple",
+            "title": "Thank You",
+            "text": "More information available at\n[blue][underscore]http://ezurl.to/containers[reset]\n\nReach out on Twitter at [blue][bright]@KyleMitBTV[reset]"
+        }
+    ]
+}
